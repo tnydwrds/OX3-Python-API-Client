@@ -9,7 +9,6 @@ envs=
 email: email
 password: password
 domain: domain
-realm: realm
 consumer_key: consumer_key
 consumer_secret: consumer_secret
 
@@ -17,7 +16,6 @@ consumer_secret: consumer_secret
 email: email_dev
 password: password_dev
 domain: domain_dev
-realm: realm_dev
 consumer_key: consumer_key_dev
 consumer_secret: consumer_secret_dev
 
@@ -25,14 +23,12 @@ consumer_secret: consumer_secret_dev
 email: email
 password: password
 domain: domain
-realm: realm
 consumer_key: consumer_key
 
 [optional-options]
 email: email
 password: password
 domain: domain
-realm: realm
 consumer_key: consumer_key
 consumer_secret: consumer_secret
 scheme: scheme

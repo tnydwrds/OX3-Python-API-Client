@@ -33,7 +33,7 @@ else:
 
 import urlparse
 
-__version__ = '0.3.1'
+__version__ = '0.3.2'
 
 REQUEST_TOKEN_URL = 'https://sso.openx.com/api/index/initiate'
 ACCESS_TOKEN_URL = 'https://sso.openx.com/api/index/token'
@@ -387,6 +387,7 @@ def client_from_file(file_path='.ox3rc', env=None):
 
     client = Client(
         domain=client_params['domain'],
+        realm=None,
         consumer_key=client_params['consumer_key'],
         consumer_secret=client_params['consumer_secret'])
 

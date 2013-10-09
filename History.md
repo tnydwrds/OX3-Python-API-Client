@@ -1,3 +1,8 @@
+0.3.2 / 2013-10-09
+==================
+ * Fixed: `client_from_file` function now passes in superfluous `realm` parameter when instantiating a `Client`.
+ * Fixed: `tests/clientfromfile.py` unit tests now pass.
+
 0.3.1 / 2013-06-04
 ==================
  * Removed: Realm Support
@@ -10,15 +15,13 @@
  * Fixed: JSON support for Python 2.4 and 2.5
  * Fixed: OAuth support for Python 2.4
  * Fixed: Version number below (0.2.1)
- 
 
 0.2.1 / 2012-09-25
 ==================
-  # Added: `upload_creative` to support uploading creative files.
+  * Added: `upload_creative` to support uploading creative files.
 
 0.2.0 / 2012-08-29
 ==================
-
   * Fixed: JSON parse error when deleting objects with call to `Client.delete()`
   * Added: "Official" support for Python 2.4, 2.5, 2.6
   * Added: `logon` and `logoff` convenience methods.
@@ -27,5 +30,4 @@
 
 0.1.0 / 2012-08-26
 ==================
-
   * "Official release"
